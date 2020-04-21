@@ -1,0 +1,85 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  midnight (themidnight-0.3.5.jar)
+  SpongeCoremod (spongeforge-1.12.2-2825-7.1.6-RC3741.jar)
+Contact their authors BEFORE contacting forge
+
+// On the bright side, I bought you a teddy bear!
+
+Time: 21/04/20 02:05
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+Missing Mods:
+	unknown : need [1.5.0,): have missing
+
+net.minecraftforge.fml.common.MultipleModsErrored
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570)
+
+-- Sponge PhaseTracker --
+Details:
+	Phase Stack: [Empty stack]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.handler$onCrashReport$zjo000(MinecraftServer.java:3975)
+	at net.minecraft.server.MinecraftServer.func_71230_b(MinecraftServer.java:889)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71230_b(DedicatedServer.java:371)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:558)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_211, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1227121224 bytes (1170 MB) / 1548746752 bytes (1477 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 3 total; -Xms1G -Xms1G -Xmx2048M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2825 15 mods loaded, 15 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID            | Version                  | Source                                   | Signature                                |
+	|:----- |:------------- |:------------------------ |:---------------------------------------- |:---------------------------------------- |
+	| L     | minecraft     | 1.12.2                   | minecraft.jar                            | None                                     |
+	| L     | mcp           | 9.42                     | minecraft.jar                            | None                                     |
+	| L     | FML           | 8.0.99.99                | forge-1.12.2-14.23.5.2825-universal.jar  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge         | 14.23.5.2825             | forge-1.12.2-14.23.5.2825-universal.jar  | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | spongeapi     | 7.1.0-1e966facc          | spongeforge-1.12.2-2825-7.1.6-RC3741.jar | None                                     |
+	| L     | sponge        | 1.12.2-7.1.6-SNAPSHOT    | spongeforge-1.12.2-2825-7.1.6-RC3741.jar | None                                     |
+	| L     | spongeforge   | 1.12.2-2825-7.1.6-RC3741 | spongeforge-1.12.2-2825-7.1.6-RC3741.jar | None                                     |
+	| L     | betterportals | 0.3.7.7                  | betterportals-0.3.7.7.jar                | None                                     |
+	| L     | customspawner | 3.11.4                   | CustomMobSpawner-3.11.5.jar              | None                                     |
+	| L     | mocreatures   | 12.0.5                   | DrZharks+MoCreatures+Mod-12.0.5.jar      | None                                     |
+	| L     | dynamictrees  | 1.12.2-0.9.7             | DynamicTrees-1.12.2-0.9.7.jar            | None                                     |
+	| L     | cfm           | 6.3.1                    | furniture-6.3.1-1.12.2.jar               | None                                     |
+	| L     | ironchest     | 1.12.2-7.0.67.844        | ironchest-1.12.2-7.0.72.847.jar          | None                                     |
+	| L     | morefurnaces  | 1.10.5                   | MoreFurnaces-1.12.2-1.10.6.jar           | None                                     |
+	| L     | midnight      | 0.3.5                    | themidnight-0.3.5.jar                    | None                                     |
+
+	Loaded coremods (and transformers): 
+midnight (themidnight-0.3.5.jar)
+  com.mushroom.midnight.core.transformer.MidnightClassTransformer
+SpongeCoremod (spongeforge-1.12.2-2825-7.1.6-RC3741.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)

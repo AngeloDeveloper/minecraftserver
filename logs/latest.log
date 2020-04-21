@@ -1,0 +1,112 @@
+[02:02:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:02:52] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:02:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[02:02:52] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
+[02:02:52] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_211, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_211
+[02:02:52] [main/INFO] [FML]: Searching C:\Users\Gabriel Slaker\Desktop\server\.\mods for mods
+[02:02:52] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from betterportals-0.3.7.7.jar
+[02:02:53] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2825-7.1.6-RC3741.jar
+[02:02:53] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in themidnight-0.3.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[02:02:53] [main/WARN] [FML]: The coremod midnight (com.mushroom.midnight.core.MidnightLoadingPlugin) is not signed!
+[02:02:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:02:53] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[02:02:53] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/Gabriel%20Slaker/Desktop/server/./mods/betterportals-0.3.7.7.jar Service=LaunchWrapper Env=SERVER
+[02:02:53] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[02:02:53] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[02:02:53] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[02:02:53] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[02:02:53] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[02:02:53] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[02:02:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:02:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:02:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:02:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:02:57] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[02:02:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:02:57] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[02:02:57] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1763992e
+[02:02:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:03:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:03:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:03:01] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:03:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:03:02] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[02:03:03] [main/ERROR] [mixin/betterportals]: Couldn't find kotlin.Pair class, Forgelin is probably missing, skipping all mixins!
+[02:03:03] [main/ERROR] [mixin/betterportals]: Couldn't find kotlin.Pair class, Forgelin is probably missing, skipping all mixins!
+[02:03:03] [main/ERROR] [mixin/betterportals]: Couldn't find kotlin.Pair class, Forgelin is probably missing, skipping all mixins!
+[02:03:48] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[02:03:49] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[02:04:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[02:04:19] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
+[02:04:19] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:04:20] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[02:04:20] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/Gabriel%20Slaker/Desktop/server/./mods/spongeforge-1.12.2-2825-7.1.6-RC3741.jar!/mcmod.info
+[02:04:21] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[02:05:04] [Server thread/INFO] [FML]: Searching C:\Users\Gabriel Slaker\Desktop\server\.\mods for mods
+[02:05:05] [Server thread/WARN] [FML]: Mod betterportals is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.3.7.7
+[02:05:10] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[02:05:12] [Server thread/INFO] [FML]: Forge Mod Loader has identified 15 mods to load
+[02:05:12] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[02:05:12] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[02:05:12] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[02:05:12] [Server thread/WARN] [FML]: Missing English translation for betterportals: assets/betterportals/lang/en_us.lang
+[02:05:12] [Server thread/WARN] [FML]: Missing English translation for customspawner: assets/customspawner/lang/en_us.lang
+[02:05:12] [Server thread/WARN] [Sponge]: The mod spongeforge was designed for forge 1.12.2-14.23.5.2825 but version 14.23.5.2825 is in use. It may not work properly.
+[02:05:12] [Server thread/WARN] [Sponge]: The mod spongeforge was designed for forge 1.12.2-14.23.5.2825 but version 14.23.5.2825 is in use. It may not work properly.
+[02:05:12] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod betterportals (Better Portals) requires [forgelin]
+[02:05:12] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod morefurnaces (More Furnaces) requires [cxlibrary@[1.5.0,)]
+[02:05:12] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.MultipleModsErrored: 
+Missing Mods:
+	unknown : need any: have missing
+
+Missing Mods:
+	unknown : need [1.5.0,): have missing
+
+
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[02:05:12] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: C:\Users\Gabriel Slaker\Desktop\server\.\crash-reports\crash-2020-04-21_02.05.12-server.txt
+[02:05:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:05:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[02:05:12] [Server thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from SpongeForge (spongeforge)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: Caused by: org.spongepowered.api.service.ProvisioningException: No provider is registered for the service 'org.spongepowered.api.service.sql.SqlService'
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at org.spongepowered.api.service.SimpleServiceManager.provideUnchecked(SimpleServiceManager.java:110)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at org.spongepowered.mod.SpongeMod.onServerStopped(SpongeMod.java:536)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[02:05:12] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraftforge.fml.common.LoadController.redirect$onPost$zza000(LoadController.java:553)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraftforge.fml.common.Loader.serverStopped(Loader.java:847)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraftforge.fml.common.FMLCommonHandler.handleServerStopped(FMLCommonHandler.java:508)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:587)
+[02:05:13] [Server thread/INFO] [STDERR]: [net.minecraftforge.fml.common.EnhancedRuntimeException:printStackTrace:92]: 	at java.lang.Thread.run(Unknown Source)
+[02:05:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:05:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
